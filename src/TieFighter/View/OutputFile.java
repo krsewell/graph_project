@@ -2,6 +2,7 @@ package TieFighter.View;
 
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -19,12 +20,19 @@ public class OutputFile {
       bw.write("");   //initialize output file
       valid = true;
     }
-
+    bw.close();
   }
 
 
-  public void write(String s) throws IOException {
-    if (valid) bw.append(s);
+  public void write(String s) {
+    if (!valid) return;
+    try {
+      bw = new BufferedWriter(new FileWriter(outFile.toString(), true));
+      bw.append(s);
+      bw.close();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
   }
 
   public void close() {

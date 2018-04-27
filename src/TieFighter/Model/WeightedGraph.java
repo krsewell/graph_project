@@ -1,7 +1,9 @@
 package TieFighter.Model;
 
 //import chapter28.AbstractGraph;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class WeightedGraph<V> extends AbstractGraph<V> {
   /** Construct an empty */
@@ -45,9 +47,9 @@ public class WeightedGraph<V> extends AbstractGraph<V> {
       neighbors.add(new ArrayList<Edge>()); // Create a list for vertices
     }
 
-    for (int i = 0; i < edges.length; i++) {
-      neighbors.get(edges[i][0]).add(
-        new WeightedEdge(edges[i][0], edges[i][1], edges[i][2]));
+    for (int[] edge : edges) {
+      neighbors.get(edge[0]).add(
+              new WeightedEdge(edge[0], edge[1], edge[2]));
     }
   }
 
@@ -57,7 +59,7 @@ public class WeightedGraph<V> extends AbstractGraph<V> {
     this.vertices = vertices;     
 
     for (int i = 0; i < vertices.size(); i++) {
-      neighbors.add(new ArrayList<Edge>()); // Create a list for vertices
+      neighbors.add(new ArrayList<>()); // Create a list for vertices
     }
 
     for (WeightedEdge edge: edges) {      
@@ -182,16 +184,18 @@ public class WeightedGraph<V> extends AbstractGraph<V> {
           u = i;
         }
       }
-      
       T.add(u); // Add a new vertex to T
-      
-      // Adjust cost[v] for v that is adjacent to u and v in V - T
-      for (Edge e : neighbors.get(u)) {
-        if (!T.contains(e.v) 
-            && cost[e.v] > cost[u] + ((WeightedEdge)e).weight) {
-          cost[e.v] = cost[u] + ((WeightedEdge)e).weight;
-          parent[e.v] = u; 
+      if (u != -1) {
+        // Adjust cost[v] for v that is adjacent to u and v in V - T
+        for (Edge e : neighbors.get(u)) {
+          if (!T.contains(e.v)
+                  && cost[e.v] > cost[u] + ((WeightedEdge) e).weight) {
+            cost[e.v] = cost[u] + ((WeightedEdge) e).weight;
+            parent[e.v] = u;
+          }
         }
+      } else {
+        break;
       }
     } // End of while
 
