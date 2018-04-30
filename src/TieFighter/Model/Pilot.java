@@ -1,3 +1,7 @@
+// Copyright (c) 2018. Kristopher J Sewell, All Rights Reserved.
+// File: Pilot.java  Module: graph_tiefighter
+// Net_ID: kjs170430
+
 package TieFighter.Model;
 
 import java.util.LinkedList;
@@ -53,7 +57,8 @@ public class Pilot implements Comparable<Pilot> {
     return vertices;
   }
 
-  public void setVertices(LinkedList vertices) {
+  public Pilot(String name, LinkedList<Integer> vertices) {
+    this.name = name;
     this.vertices = vertices;
   }
 
@@ -65,9 +70,7 @@ public class Pilot implements Comparable<Pilot> {
     this.name = name;
   }
 
-
-  public Pilot(String name, LinkedList vertices) {
-    this.name = name;
+  public void setVertices(LinkedList<Integer> vertices) {
     this.vertices = vertices;
   }
 
@@ -89,7 +92,8 @@ public class Pilot implements Comparable<Pilot> {
   @Override
   public String toString() {
     return String.format("%-30s", name) +
-            String.format("%-15.1f", length) +
+            String.format(length != Double.POSITIVE_INFINITY ? "%-15.0f" : "%-15s",
+                    length != Double.POSITIVE_INFINITY ? length : "") +
             String.format("%-10s", validPath ? "valid" : "invalid") +
             System.lineSeparator();
   }

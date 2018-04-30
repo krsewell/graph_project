@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/test/AllModuleTest.java" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/test/AllModuleTest.java" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a95d9e5-ca9b-47ec-86de-864e21b2c896" name="Default" comment="#View and Model complete.&#10;&#10;- added junit tests to each public &amp; some private methods for view &#10;  and model classes&#10;- Minor modifications to WeightedGraph.java to allow unordered and &#10;  mostly unbounded vertex labels&#10;- Outlined Control.java and fixed some errors in Helpers.java">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AllModuleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/HelpersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/InputFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OutputFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PilotTest.java" afterDir="false" />
+    <list default="true" id="7a95d9e5-ca9b-47ec-86de-864e21b2c896" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/default_class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galaxy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilot_routes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_tiefighter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/graph_tiefighter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TieFighter/Controller/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/Controller/Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TieFighter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TieFighter/Model/AlphaAscComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TieFighter/Model/LengthAscComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TieFighter/Model/LinkedList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TieFighter/Model/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/Model/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TieFighter/Model/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/Model/WeightedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TieFighter/View/InputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/View/InputFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TieFighter/View/OutputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TieFighter/View/OutputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AllModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AllModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/HelpersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelpersTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,110 +43,44 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pilot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/Pilot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2037">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Control.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Control.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TieFighter/View/OutputFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TieFighter/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllModuleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/AllModuleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightedGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/WeightedGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-              <folding>
-                <element signature="method#getWeight#0;class#WeightedGraph#0" />
-                <element signature="method#printWeightedEdges#0;class#WeightedGraph#0" />
-                <element signature="method#getMinimumSpanningTree#1;class#WeightedGraph#0" />
-                <element signature="class#MST#0;class#WeightedGraph#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TieFighter/View/InputFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputFileTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/InputFileTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="Helpers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+            <state relative-caret-position="194">
+              <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="method#getVertices#0;class#Helpers#0" />
+                <element signature="method#extractVert#0;class#Helpers#0" />
+                <element signature="method#getEdges#0;class#Helpers#0" />
+                <element signature="method#extractEdges#0;class#Helpers#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pilot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/Pilot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1554">
+              <caret line="92" column="67" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
+              <folding>
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TieFighter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#569#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,18 +125,20 @@
         <option value="$PROJECT_DIR$/src/TieFighter/View/InputFileTest.java" />
         <option value="$PROJECT_DIR$/src/TieFighter/Model/PilotTest.java" />
         <option value="$PROJECT_DIR$/test/AllModuleTestTest.java" />
-        <option value="$PROJECT_DIR$/test/AllModuleTest.java" />
-        <option value="$PROJECT_DIR$/src/TieFighter/Model/Pilot.java" />
         <option value="$PROJECT_DIR$/test/PilotTest.java" />
         <option value="$PROJECT_DIR$/src/TieFighter/View/OutputFile.java" />
-        <option value="$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java" />
-        <option value="$PROJECT_DIR$/test/HelpersTest.java" />
-        <option value="$PROJECT_DIR$/src/TieFighter/Main.java" />
         <option value="$PROJECT_DIR$/test/OutputFileTest.java" />
         <option value="$PROJECT_DIR$/test/InputFileTest.java" />
-        <option value="$PROJECT_DIR$/src/TieFighter/Controller/Control.java" />
         <option value="$PROJECT_DIR$/src/TieFighter/Model/WeightedGraph.java" />
         <option value="$PROJECT_DIR$/src/TieFighter/View/InputFile.java" />
+        <option value="$PROJECT_DIR$/test/AllModuleTest.java" />
+        <option value="$PROJECT_DIR$/galaxy.txt" />
+        <option value="$PROJECT_DIR$/pilot_routes.txt" />
+        <option value="$PROJECT_DIR$/test/HelpersTest.java" />
+        <option value="$PROJECT_DIR$/src/TieFighter/Controller/Control.java" />
+        <option value="$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/TieFighter/Model/Pilot.java" />
+        <option value="$PROJECT_DIR$/src/TieFighter/Main.java" />
       </list>
     </option>
   </component>
@@ -229,16 +158,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
+    <option name="x" value="174" />
     <option name="y" value="27" />
     <option name="width" value="1717" />
-    <option name="height" value="969" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,13 +180,37 @@
             <path>
               <item name="graph_tiefighter" type="b2602c69:ProjectViewProjectNode" />
               <item name="graph_tiefighter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph_tiefighter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph_tiefighter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TieFighter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph_tiefighter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph_tiefighter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TieFighter" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph_tiefighter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph_tiefighter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TieFighter" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph_tiefighter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph_tiefighter" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -270,18 +224,23 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last.edited.regexp" value="" />
+    <property name="last.edited.regexp" value="ASSWHOLE" />
     <property name="last_opened_file_path" value="/usr/lib/junit5/junit-5.1.x" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="template.copyright.formatting" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
       <recent name="TieFighter.Model" />
       <recent name="TieFighter.View" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -357,13 +316,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HelpersTest.extractEdges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelpersTest.extractNodesExtraSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph_tiefighter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HelpersTest" />
-      <option name="METHOD_NAME" value="extractEdges" />
+      <option name="METHOD_NAME" value="extractNodesExtraSpace" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -374,13 +333,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="OutputFileTest.close" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelpersTest.extractNodesSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph_tiefighter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OutputFileTest" />
-      <option name="METHOD_NAME" value="close" />
+      <option name="MAIN_CLASS_NAME" value="HelpersTest" />
+      <option name="METHOD_NAME" value="extractNodesSimple" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -443,19 +402,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HelpersTest.extractEdges" />
+      <item itemvalue="JUnit.HelpersTest.extractNodesSimple" />
+      <item itemvalue="JUnit.HelpersTest.extractNodesExtraSpace" />
       <item itemvalue="JUnit.HelpersTest" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.AllModuleTest" />
-      <item itemvalue="JUnit.OutputFileTest.close" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AllModuleTest" />
-        <item itemvalue="JUnit.OutputFileTest.close" />
-        <item itemvalue="JUnit.HelpersTest.extractEdges" />
         <item itemvalue="JUnit.HelpersTest" />
+        <item itemvalue="JUnit.HelpersTest.extractNodesExtraSpace" />
+        <item itemvalue="JUnit.HelpersTest.extractNodesSimple" />
       </list>
     </recent_temporary>
   </component>
@@ -476,47 +435,57 @@
       <workItem from="1524680180909" duration="12000" />
       <workItem from="1524680236845" duration="28000" />
       <workItem from="1524680289821" duration="16000" />
-      <workItem from="1524702348572" duration="33370000" />
+      <workItem from="1524702348572" duration="33442000" />
+      <workItem from="1525025715925" duration="15104000" />
     </task>
+    <task id="LOCAL-00001" summary="#View and Model complete.&#10;&#10;- added junit tests to each public &amp; some private methods for view &#10;  and model classes&#10;- Minor modifications to WeightedGraph.java to allow unordered and &#10;  mostly unbounded vertex labels&#10;- Outlined Control.java and fixed some errors in Helpers.java">
+      <created>1524824105406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524824105406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelpersTest - 2018.04.27 at 02h 18m 45s.xml">
+    <history-entry file="HelpersTest_extractNameExtraSpace - 2018.04.29 at 21h 21m 52s.xml">
+      <configuration name="HelpersTest.extractNameExtraSpace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest_extractNameSpecialCharacter - 2018.04.29 at 21h 23m 11s.xml">
+      <configuration name="HelpersTest.extractNameSpecialCharacter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest_extractNodesSimple - 2018.04.29 at 21h 30m 05s.xml">
+      <configuration name="HelpersTest.extractNodesSimple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest_extractNodesSimple - 2018.04.29 at 21h 33m 13s.xml">
+      <configuration name="HelpersTest.extractNodesSimple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest_extractNodesExtraSpace - 2018.04.29 at 21h 34m 23s.xml">
+      <configuration name="HelpersTest.extractNodesExtraSpace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest_extractNodesExtraSpace - 2018.04.29 at 21h 35m 23s.xml">
+      <configuration name="HelpersTest.extractNodesExtraSpace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest_extractNodesExtraSpace - 2018.04.29 at 21h 35m 49s.xml">
+      <configuration name="HelpersTest.extractNodesExtraSpace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelpersTest - 2018.04.29 at 21h 36m 39s.xml">
       <configuration name="HelpersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelpersTest_extractEdges - 2018.04.27 at 02h 22m 39s.xml">
-      <configuration name="HelpersTest.extractEdges" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelpersTest_extractEdges - 2018.04.27 at 02h 23m 56s.xml">
-      <configuration name="HelpersTest.extractEdges" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelpersTest_extractEdges - 2018.04.27 at 02h 24m 15s.xml">
-      <configuration name="HelpersTest.extractEdges" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelpersTest_extractEdges - 2018.04.27 at 02h 26m 00s.xml">
-      <configuration name="HelpersTest.extractEdges" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelpersTest_extractEdges - 2018.04.27 at 04h 08m 54s.xml">
-      <configuration name="HelpersTest.extractEdges" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllModuleTest - 2018.04.27 at 04h 52m 19s.xml">
+    <history-entry file="AllModuleTest - 2018.04.29 at 21h 37m 31s.xml">
       <configuration name="AllModuleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OutputFileTest_close - 2018.04.27 at 04h 53m 47s.xml">
-      <configuration name="OutputFileTest.close" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OutputFileTest_close - 2018.04.27 at 04h 54m 27s.xml">
-      <configuration name="OutputFileTest.close" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllModuleTest - 2018.04.27 at 04h 54m 33s.xml">
+    <history-entry file="AllModuleTest - 2018.04.29 at 22h 01m 51s.xml">
       <configuration name="AllModuleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74767000" />
+    <option name="totallyTimeSpent" value="89943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -524,15 +493,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.32983193" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32977587" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32983193" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32983193" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994664" weight="0.32983193" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
       <window_info anchor="right" id="Database" order="3" weight="0.32977587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
@@ -564,7 +533,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -572,96 +541,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/WeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="method#getWeight#0;class#WeightedGraph#0" />
-            <element signature="method#printWeightedEdges#0;class#WeightedGraph#0" />
-            <element signature="method#getMinimumSpanningTree#1;class#WeightedGraph#0" />
-            <element signature="class#MST#0;class#WeightedGraph#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/WeightedEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/AbstractGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="docComment;method#AbstractGraph#0;class#AbstractGraph#0" />
-            <element signature="method#AbstractGraph#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#AbstractGraph#1;class#AbstractGraph#0" />
-            <element signature="method#AbstractGraph#1;class#AbstractGraph#0" />
-            <element signature="docComment;method#AbstractGraph#2;class#AbstractGraph#0" />
-            <element signature="method#AbstractGraph#2;class#AbstractGraph#0" />
-            <element signature="docComment;method#AbstractGraph#3;class#AbstractGraph#0" />
-            <element signature="method#AbstractGraph#3;class#AbstractGraph#0" />
-            <element signature="docComment;method#AbstractGraph#4;class#AbstractGraph#0" />
-            <element signature="method#AbstractGraph#4;class#AbstractGraph#0" />
-            <element signature="docComment;method#createAdjacencyLists#0;class#AbstractGraph#0" />
-            <element signature="method#createAdjacencyLists#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#createAdjacencyLists#1;class#AbstractGraph#0" />
-            <element signature="method#createAdjacencyLists#1;class#AbstractGraph#0" />
-            <element signature="method#getNeighbors#0;class#AbstractGraph#0" />
-            <element signature="method#printEdges#0;class#AbstractGraph#0" />
-            <element signature="method#clear#0;class#AbstractGraph#0" />
-            <element signature="method#addVertex#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#addEdge#0;class#AbstractGraph#0" />
-            <element signature="method#addEdge#0;class#AbstractGraph#0" />
-            <element signature="docComment;class#Edge#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#Edge#0;class#Edge#0;class#AbstractGraph#0" />
-            <element signature="method#dfs#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#dfs#1;class#AbstractGraph#0" />
-            <element signature="method#dfs#1;class#AbstractGraph#0" />
-            <element signature="method#bfs#0;class#AbstractGraph#0" />
-            <element signature="docComment;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#Tree#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="method#Tree#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#getRoot#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#getParent#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#getSearchOrder#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#getNumberOfVerticesFound#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#getPath#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="method#getPath#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#printPath#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="method#printPath#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="docComment;method#printTree#0;class#Tree#0;class#AbstractGraph#0" />
-            <element signature="method#printTree#0;class#Tree#0;class#AbstractGraph#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/Pilot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Control.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="method#getVertices#0;class#Helpers#0" />
+            <element signature="method#extractVert#0;class#Helpers#0" />
+            <element signature="method#getEdges#0;class#Helpers#0" />
+            <element signature="method#extractEdges#0;class#Helpers#0" />
           </folding>
         </state>
       </provider>
@@ -673,9 +562,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#PilotSortTests#0" />
+            <element signature="method#testAlphaSort#0;class#PilotSortTests#0" />
             <element signature="method#testLengthSort#0;class#PilotSortTests#0" />
             <element signature="method#testDoubleSort#0;class#PilotSortTests#0" />
-            <element signature="class#PilotTest#0" />
             <element signature="method#testToString#0;class#PilotTest#0" />
             <element signature="method#testGetPathSimple#0;class#PilotTest#0" />
             <element signature="method#testGetPathLonger#0;class#PilotTest#0" />
@@ -791,6 +680,8 @@
           <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -836,34 +727,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/extension/ExecutionCondition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/extension/ExtendWith.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AllModuleTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="120" column="15" lean-forward="true" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/extension/ExecutionCondition.class" />
+    <entry file="jar://$PROJECT_DIR$/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/extension/ExtendWith.class" />
+    <entry file="file://$PROJECT_DIR$/test/AllModuleTestTest.java" />
     <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2450">
@@ -942,32 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/Pilot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PilotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#PilotSortTests#0" />
-            <element signature="method#testLengthSort#0;class#PilotSortTests#0" />
-            <element signature="method#testDoubleSort#0;class#PilotSortTests#0" />
-            <element signature="class#PilotTest#0" />
-            <element signature="method#testToString#0;class#PilotTest#0" />
-            <element signature="method#testGetPathSimple#0;class#PilotTest#0" />
-            <element signature="method#testGetPathLonger#0;class#PilotTest#0" />
-            <element signature="method#testGetPathInvalid#0;class#PilotTest#0" />
-            <element signature="method#testGetPathLoop#0;class#PilotTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -982,34 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/View/OutputFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/HelpersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/OutputFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1020,47 +832,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AllModuleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/InputFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Control.java">
+    <entry file="file://$PROJECT_DIR$/src/TieFighter/View/OutputFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="583">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/WeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="1092">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
           <folding>
             <element signature="method#getWeight#0;class#WeightedGraph#0" />
             <element signature="method#printWeightedEdges#0;class#WeightedGraph#0" />
@@ -1070,14 +869,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/AllModuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PilotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#PilotSortTests#0" />
+            <element signature="method#testAlphaSort#0;class#PilotSortTests#0" />
+            <element signature="method#testLengthSort#0;class#PilotSortTests#0" />
+            <element signature="method#testDoubleSort#0;class#PilotSortTests#0" />
+            <element signature="method#testToString#0;class#PilotTest#0" />
+            <element signature="method#testGetPathSimple#0;class#PilotTest#0" />
+            <element signature="method#testGetPathLonger#0;class#PilotTest#0" />
+            <element signature="method#testGetPathInvalid#0;class#PilotTest#0" />
+            <element signature="method#testGetPathLoop#0;class#PilotTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galaxy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pilot_routes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="593" column="50" lean-forward="true" selection-start-line="593" selection-start-column="50" selection-end-line="593" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/HelpersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="method#extractEdges#0;class#HelpersTest#0" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="method#convertToKeyValuesTest#0;class#HelpersTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Control.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TieFighter/View/InputFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="163">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1018#1019#0" expanded="true" />
             <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patrols.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TieFighter/Model/Pilot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="92" column="67" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
+          <folding>
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TieFighter/Controller/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getVertices#0;class#Helpers#0" />
+            <element signature="method#extractVert#0;class#Helpers#0" />
+            <element signature="method#getEdges#0;class#Helpers#0" />
+            <element signature="method#extractEdges#0;class#Helpers#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TieFighter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,6 +1010,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>default-class</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

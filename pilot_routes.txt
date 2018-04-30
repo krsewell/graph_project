@@ -1,0 +1,9 @@
+John Evans 8 9 10 8
+Brad Pitt 2 3
+Ashton Kutcher 8 9 10 8
+Olivia Wilde 5 11 10
+Reese Witherspoon 3 8 9
+Nicolas_Cage 5 9
+Natalie Portman 3 8 9
+Robert Downey Jr' 7 8 10 8 7
+R2D2 Reborn 3 10 8 9

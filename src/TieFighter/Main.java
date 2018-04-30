@@ -1,3 +1,7 @@
+// Copyright (c) 2018. Kristopher J Sewell, All Rights Reserved.
+// File: Main.java  Module: graph_tiefighter
+// Net_ID: kjs170430
+
 package TieFighter;
 
 import TieFighter.Controller.Control;
