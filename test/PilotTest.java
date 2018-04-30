@@ -1,3 +1,7 @@
+// Copyright (c) 2018. Kristopher J Sewell, All Rights Reserved.
+// File: PilotTest.java  Module: graph_tiefighter
+// Net_ID: kjs170430
+
 import TieFighter.Model.Pilot;
 import TieFighter.Model.WeightedEdge;
 import TieFighter.Model.WeightedGraph;
@@ -115,35 +119,36 @@ class PilotTest {
 
 //    System.out.print(pilot1.toString());
 //    System.out.print(pilot.toString());
-    assertEquals("Freddy David                  0.0            invalid   " + System.lineSeparator(),
+    assertEquals("Freddy David                  0              invalid   " + System.lineSeparator(),
             pilot.toString());
-    assertEquals("Mark Taine                    0.0            invalid   " + System.lineSeparator(),
+    assertEquals("Mark Taine                    0              invalid   " + System.lineSeparator(),
             pilot1.toString());
   }
 
   @Test
   void testGetPathSimple() {
-    pilot.getShortestPathLength(vertices.indexOf(11), vertices.indexOf(2), graph);
+    pilot.getDirectPathLength(vertices.indexOf(11), vertices.indexOf(2), graph);
     assertEquals(9, pilot.getLength());
 
   }
 
   @Test
   void testGetPathLonger() {
-    pilot.getShortestPathLength(vertices.indexOf(3), vertices.indexOf(9), graph);
-    assertEquals(6, pilot.getLength());
-  }
-
-  @Test
-  void testGetPathInvalid() {
-    pilot.getShortestPathLength(vertices.indexOf(10), vertices.indexOf(2), graph);
+    pilot.getDirectPathLength(vertices.indexOf(3), vertices.indexOf(9), graph);
     assertEquals(Double.POSITIVE_INFINITY, pilot.getLength());
   }
 
   @Test
-  void testGetPathLoop() {
-    pilot.getShortestPathLength(vertices.indexOf(7), vertices.indexOf(10), graph);
-    assertEquals(9, pilot.getLength());
+  void testGetPathInvalid() {
+    pilot.getDirectPathLength(vertices.indexOf(10), vertices.indexOf(2), graph);
+    assertEquals(Double.POSITIVE_INFINITY, pilot.getLength());
+  }
+
+  @Test
+  @Deprecated
+  void testGetPathLoop() { //Doesn't actually run loop anymore since checking direct path
+    pilot.getDirectPathLength(vertices.indexOf(7), vertices.indexOf(8), graph);
+    assertEquals(3, pilot.getLength());
   }
 
 

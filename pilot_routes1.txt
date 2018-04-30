@@ -1,0 +1,6 @@
+General Hux 10 20 30 40 50 60
+Baron Papanoida 60 50 40 30 20 10 60
+Captain Phasma 30 50 10 60 20 40 60 30 10 20 50 40
+Malakili 25 40 20 60
+Oleg 40 10 50 10
+Jar Jar 20 60 30 10 45

@@ -1,0 +1,5 @@
+T'Challa 4 1 7 2 5 7
+Steve Rogers 6 4 6 4 6 6 6 6 4 6
+Clint Barton 5 7 3 1 4 6 5
+Natasha Romanov 1 2 3 4 5 6 7
+Scott Lang 3 4 1 7 2 5 7 3 4 6 4 6 5 7 3 4 1

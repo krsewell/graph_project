@@ -33,7 +33,7 @@ public class Pilot implements Comparable<Pilot> {
   public void setLength(double length) {
     //set to public for test cases to be independent of other logic that computes length.
     //TODO: change to private before production.
-    if (length <= 0) throw new IllegalArgumentException("length may not be negative");
+    if (length < 0) throw new IllegalArgumentException("length may not be negative");
     this.length = length;
   }
 
@@ -98,9 +98,14 @@ public class Pilot implements Comparable<Pilot> {
             System.lineSeparator();
   }
 
-  public double getShortestPathLength(int start, int end, WeightedGraph<Integer> graph) {
-    WeightedGraph<Integer>.ShortestPathTree shortestPath = graph.getShortestPath(start);
-    double d = shortestPath.getCost(end);
+  public double getDirectPathLength(int start, int end, WeightedGraph<Integer> graph) {
+    //WeightedGraph<Integer>.ShortestPathTree shortestPath = graph.getShortestPath(start);
+    double d; //double d = shortestPath.getCost(end);
+    try {
+      d = graph.getWeight(start, end);  //throws if edge doesn't exist.
+    } catch (Exception ex) {
+      d = Double.POSITIVE_INFINITY;     //if it doesn't exist cost is infinite.
+    }
     setLength(d);
     if (this.length != Double.POSITIVE_INFINITY) setValidPath(true);
     return d;
@@ -110,10 +115,11 @@ public class Pilot implements Comparable<Pilot> {
     if (vertices != null) {
       double sum = 0;
       while (vertices.size() != 1) {
-        sum += getShortestPathLength(
-                vertices.pop(),
-                vertices.get(0),
-                graph);
+        Integer var = vertices.pop();
+        Integer var2 = vertices.get(0);
+        if (var >= 0 && var2 >= 0)    //added to check for non-existent nodes which look like -1 at this point
+          sum += getDirectPathLength(var, var2, graph);
+        else sum = Double.POSITIVE_INFINITY;
         if (sum == Double.POSITIVE_INFINITY) break;
       }
       vertices = null;

@@ -1,0 +1,20 @@
+Pilot.java
+
+Pilot::testPrescribedPath
+Line 113: pulled variable out of getShortestPathLength method on line 116 so we can check for invalid values
+Line 114: pulled variable out of getShortestPathLength method on line 116 so we can check for invalid values
+Line 115: Added if statement checking for invalid index key's "-1"
+Line 117: Added else statement to correct invalid index length value
+
+Pilot::getShortestPath //name is no longer accurate and was changed to getDirectPath
+Line 102: Removed variable and instantiation of Shortest Path Tree.
+Line 103: Removed instantiation of double "d."
+Lines 104-108: Changed method to get path cost in lu of line 102. Instead of getting shortest path from Shortest Path Tree
+        checked for direct path with getWeight. Method throws exception if edge isn't found.
+
+Pilot::setLength
+Line 36: length <= 0 changed to < 0 to accommodate 0 cost paths.
+
+
+
+
